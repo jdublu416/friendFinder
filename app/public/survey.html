@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Page</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="text-center">
+                <span class="glyphicon glyphicon-heart"></span>Friend Finder</h1>
+            <hr>
+            <h2 class="text-center">Take the survey to see who thinks just like you!</h2>
+            <br>
+
+            <div class="text-center">
+                <a href="/api/friends">
+                    <button class="btn btn-lg btn-primary">
+                        <span class="glyphicon glyphicon-list-alt"></span> View Friends</button>
+                </a>
+                <a href="/">
+                    <button class="btn btn-lg btn-default">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Friend Survey</h4>
+                    </div>
+                    <div class="panel-body">
+
+                        <form role="form">
+
+                            <div class="form-group">
+                                <label for="survey-name">Name</label>
+                                <input type="text" class="form-control" id="survey-name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="survey-picInfo">Picture (URL)</label>
+                                <input type="text" class="form-control" id="survey-picInfo" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sel1">I generally respect others opinions:</label>
+                                <select class="form-control" id="sel1">
+                                    <option value="0"></option>
+                                    <option value="1">1(strongly agree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5(strongly disagree)</option>
+
+                                </select>
+                                <br>
+                                <label for="sel2">I am a very physically active person:</label>
+                                <select class="form-control" id="sel2">
+                                    <option value="0"></option>
+                                    <option value="1">1(strongly agree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5(strongly disagree)</option>
+                                </select>
+                                <br>
+                                <label for="sel3">I feel that watching a movie is time well spent:</label>
+                                <select class="form-control" id="sel3">
+                                    <option value="0"></option>
+                                    <option value="1">1(strongly agree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5(strongly disagree)</option>
+                                </select>
+                                <br>
+                                <label for="sel4">I have a strong social media presence and it's important:</label>
+                                <select class="form-control" id="sel4">
+                                    <option value="0"></option>
+                                    <option value="1">1(strongly agree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5(strongly disagree)</option>
+                                </select>
+                                <br>
+                                <label for="sel5">I hate my ex and will never get that time back:</label>
+                                <select class="form-control" id="sel5">
+                                    <option value="0"></option>
+                                    <option value="1">1(strongly agree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5(strongly disagree)</option>
+                                </select>
+                                <br>
+                                <label for="sel6">I enjoy a good political debate and respect differing viewpoints:</label>
+                                <select class="form-control" id="sel6">
+                                    <option value="0"></option>
+                                    <option value="1">1(strongly agree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5(strongly disagree)</option>
+                                </select>
+                                <br>
+                                <label for="sel7">I can account for every dollar I spend every month:</label>
+                                <select class="form-control" id="sel7">
+                                    <option value="0"></option>
+                                    <option value="1">1(strongly agree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5(strongly disagree)</option>
+                                </select>
+                                <br>
+                                <label for="sel8">I am deeply spiritual:</label>
+                                <select class="form-control" id="sel8">
+                                    <option value="0"></option>
+                                    <option value="1">1(strongly agree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5(strongly disagree)</option>
+                                </select>
+                                <br>
+                                <label for="sel9">It is often difficult for you to relate to other people’s feelings:</label>
+                                <select class="form-control" id="sel9">
+                                    <option value="0"></option>
+                                    <option value="1">1(strongly agree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5(strongly disagree)</option>
+                                </select>
+                                <br>
+                                <label for="sel10">You find it easy to stay relaxed and focused even when there is some pressure:</label>
+                                <select class="form-control" id="sel10">
+                                    <option value="0"></option>
+                                    <option value="1">1(strongly agree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5(strongly disagree)</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/friends">API Link</a> |
+                    <!-- <a href="/api/waitlist">API Wait List</a> | -->
+                    <!-- <a href="https://github.com/jdublu416/friendFinder">GitHub Repo</a> -->
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <div id="resultModal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Congratulations! Your new friend is:</h4>
+                </div>
+                <div class="modal-body">
+                  <h2 id="matchName"></h2>
+                  <img src="" alt="the perfect match photo" id="matchPhoto">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div>
+
+    
+    <script type="text/javascript">
+
+    //listener for submit
+    $(".submit").on("click", function (event) {
+        event.preventDefault();
+        
+        // Here we grab the form elements
+        var userData= {
+            name: $("#survey-name").val().trim(),
+            photoURL: $("#survey-picInfo").val().trim(),
+            scores: [
+                $("#sel1").val().trim(),
+                $("#sel2").val().trim(),
+                $("#sel3").val().trim(),
+                $("#sel4").val().trim(),
+                $("#sel5").val().trim(),
+                $("#sel6").val().trim(),
+                $("#sel7").val().trim(),
+                $("#sel8").val().trim(),
+                $("#sel9").val().trim(),
+                $("#sel10").val().trim()
+            ]
+        };
+        
+        console.log(userData);
+        
+        // This line is the magic. It"s very similar to the standard ajax function we used.
+        // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+        // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+        // depending on if a tables is available or not.
+        
+        $.post("/api/friends", userData,
+        function (data) {
+            
+            data ? alert("there is data"):alert("no data found");
+            
+            $("#matchName").text(data.name);
+            $("#matchPhoto").attr("src", data.photoURL);
+             $('#resultModal').modal('toggle');
+            
+            // Clear the form when submitting
+            $("#survey-name").val("");
+            $("#survey-picInfo").val("");
+            $("#sel1").val("");
+            $("#sel2").val("");
+            $("#sel3").val("");
+            $("#sel4").val("");
+            $("#sel5").val("");
+            $("#sel6").val("");
+            $("#sel7").val("");
+            $("#sel8").val("");
+            $("#sel9").val("");
+            $("#sel10").val("");
+
+
+            
+        });
+        
+    });
+    
+    </script>
+</body>
+
+</html>
