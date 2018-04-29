@@ -8,35 +8,35 @@ In order to run this application, one will need to install the node modules from
 
 ## How it works
 
-* First, one must open file in one's preferred command line interface and run the server.js file.
+* First, one must open this file in one's preferred command line interface and run the server.js file.
 
 ![stepOne photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(1).png)
 
-* Step two
+* Upon running the application, One will see the home page for Friend Finder where there are two options: view friends and take the survey. 
 
-![stepOne photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(2).png)
+![stepTwo photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(2).png)
 
-* step three
+* The view friends button will show a list of users in json format. This will allow the user to see the data.
 
-![stepOne photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(3).png)
+![stepThree photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(3).png)
 
-* step4
+* The take the survey option takes the user to the survey page. This page offers two button selections where they can view the same list of friends and also can go back to the home page.
 
-![stepOne photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(4).png)
+![stepFour photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(4).png)
 
-* step 5
+* The user completes the survey by filling in the name and URL for their chosen photo for the data list. The survey questions are answered at this time by clicking on the menu for the answer selections and then the user hits the submit button.
 
-![stepOne photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(5).png)
+![stepFive photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(5).png)
 
-* step 6
+* The survey questions are answered at this time by clicking on the menu for the answer selections and then the user hits the submit button.
 
-![stepOne photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(6).png)
+![stepSix photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(6).png)
 
-* step 7
+* It is at this point the user will be returned via modal their best match from their survey results. The matched friend will be displayed by their name and photo.
 
-![stepOne photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(7).png)
+![stepSeven photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(7).png)
 
-* step 8
+* When the user now selects the view friends button, they will see their data added to the list.
 
 ![stepOne photo](https://github.com/jdublu416/friend_Finder/blob/master/images/Screenshot%20(8).png)
 
