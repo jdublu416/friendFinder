@@ -18,4 +18,5 @@ require("./app/routing/htmlRoutes")(app);
 //listen for activity on port 3000
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
+  console.log('heroku build test');
 });
