@@ -1,0 +1,26 @@
+{
+  "name": "friend_finder",
+  "version": "1.0.0",
+  "description": "This application originated as an assignment for the University of Richmond Coding Bootcamp and is defined as a compatibility-based \"friend finder\" application. It is a full stack site enabling one to build her skills that include node.js, Express (to handle routing), and then deploying the application with heroku.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdublu416/friend_Finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdublu416/friend_Finder/issues"
+  },
+  "homepage": "https://github.com/jdublu416/friend_Finder#readme"
+}
